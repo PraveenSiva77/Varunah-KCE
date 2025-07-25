@@ -77,15 +77,18 @@ A modern, responsive web platform for Varunah 2k24 - the annual technical and cu
 
 2. **Open the project**
 
-   Open `src/index.html` in your web browser or serve using a local web server:
+   **Option A: Direct File Access**
+   Open `index.html` in your web browser directly from the root folder.
+
+   **Option B: Local Web Server (Recommended)**
+   Serve using a local web server for full functionality:
 
    ```bash
-   # Using Python 3
-   cd src
+   # Using Python 3 (from root directory)
    python -m http.server 8000
 
    # Using Node.js (if you have http-server installed)
-   npx http-server src
+   npx http-server .
 
    # Using Live Server in VS Code
    # Right-click on index.html and select "Open with Live Server"
@@ -93,35 +96,49 @@ A modern, responsive web platform for Varunah 2k24 - the annual technical and cu
 
 3. **Access the application**
 
-   Navigate to `http://localhost:8000` (or your chosen port) in your browser.
+   - **Direct file**: Open `index.html` directly in your browser
+   - **Web server**: Navigate to `http://localhost:8000` (or your chosen port)
 
 ### 🏃‍♂️ File Structure
 
 ```text
 Varunah-KCE/
-├── src/
-│   ├── index.html              # Main landing page
-│   ├── event-depts.html        # Events and departments page
-│   ├── team.html              # Team information page
-│   ├── 404.html               # Error page
-│   ├── index.css              # Main stylesheet
-│   ├── event-depts.css        # Event-specific styles
-│   ├── team.css               # Team page styles
-│   ├── index.js               # Main JavaScript functionality
-│   ├── event-depts.js         # Event management logic
-│   ├── teams.js               # Team display functionality
-│   ├── assets/
-│   │   ├── css/               # Additional stylesheets
-│   │   ├── imgs/              # Images and graphics
-│   │   ├── files/             # Documents and PDFs
-│   │   ├── js/                # JavaScript utilities
-│   │   ├── scss/              # SCSS source files
-│   │   └── vendors/           # Third-party libraries
-│   ├── bootstrap-5.0.2-dist/  # Bootstrap framework
-│   └── Dynamic/
-│       └── Footer.html        # Reusable footer component
-├── LICENSE                    # MIT License
-└── README.md                  # Project documentation
+├── index.html                  # Root landing page (main entry point)
+├── index.js                    # Root JavaScript with corrected paths
+├── Footer.html                 # Footer component for root context
+├── LICENSE                     # MIT License
+├── README.md                   # Project documentation
+└── src/
+    ├── event-depts.html        # Events and departments page
+    ├── team.html               # Team information page
+    ├── 404.html                # Error page
+    ├── index.css               # Main stylesheet
+    ├── event-depts.css         # Event-specific styles
+    ├── team.css                # Team page styles
+    ├── events.css              # Additional event styles
+    ├── index.js                # Source JavaScript (for src context)
+    ├── event-depts.js          # Event management logic
+    ├── teams.js                # Team display functionality
+    ├── assets/
+    │   ├── css/                # Additional stylesheets
+    │   ├── imgs/               # Images and graphics
+    │   ├── files/              # Documents and PDFs
+    │   ├── js/                 # JavaScript utilities
+    │   ├── scss/               # SCSS source files
+    │   │   ├── creative-studio.scss
+    │   │   ├── abstracts/      # Variables and mixins
+    │   │   ├── base/           # Base styles
+    │   │   ├── components/     # UI components
+    │   │   ├── layout/         # Layout sections
+    │   │   └── vendors/        # Vendor styles
+    │   └── vendors/            # Third-party libraries
+    │       ├── bootstrap/      # Bootstrap components
+    │       ├── jquery/         # jQuery library
+    │       └── themify-icons/  # Icon fonts
+    └── bootstrap-5.0.2-dist/   # Bootstrap framework distribution
+        └── bootstrap-5.0.2-dist/
+            ├── css/            # Bootstrap stylesheets
+            └── js/             # Bootstrap JavaScript
 ```
 
 ## 🎯 Usage
