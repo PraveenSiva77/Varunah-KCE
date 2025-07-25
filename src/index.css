@@ -196,6 +196,7 @@ body {
 /************************ Departments(Associations) CSS ************************/
 .departments {
   padding: 4rem 2rem 2rem 2rem;
+  margin-top: 20rem;
 }
 
 #dept-card-container{

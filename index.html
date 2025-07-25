@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Varunah</title>
 
-    <link rel="icon" href="./assets/imgs/Varunah Icon.svg">
+    <link rel="icon" href="src/assets/imgs/Varunah Icon.svg">
 
     <!-- Bootstrap 5 -->
-    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="src/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css">
 
     <!-- Custom Css -->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="src/index.css">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +28,7 @@
     <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <div class="navbar-brand" id="varunah-logo-holder-nav">
-          <img src="assets/imgs/varunah-logo-5.png" alt="">
+          <img src="src/assets/imgs/varunah-logo-5.png" alt="">
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -39,7 +39,7 @@
               <a class="nav-link" href="#landingpage">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./event-depts.html">Events</a>
+              <a class="nav-link" href="src/event-depts.html">Events</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#departments">Associations</a>
@@ -57,7 +57,7 @@
     <!-- navbar end -->
     <div class="landingpage-contents">
       <div class="landingpage-logo">
-        <img src="assets/imgs/varunah-logo-3.png" alt="">
+        <img src="src/assets/imgs/varunah-logo-3.png" alt="">
       </div>
       <div class="center-buttons">
         <a href="https://drive.google.com/file/d/1_78K48tBrVlBbNGNhLLFdLwbHSr8Z-3y/view?usp=sharing" id="primary-btn" class="text-center" download="Varunah">Brochure</a>
@@ -103,12 +103,16 @@
  <!-- Footer Start -->
   <footer id="footer" class="text-center text-lg-start bg-body-tertiary text-muted">
     <!-- Load Content from Dynamic folder-->
+    <div class="text-center p-4" style="display: none;" id="footer-fallback">
+      <p>© 2024 Copyright <a href="https://kathir.ac.in">Kathir College of Engineering</a></p>
+      <p>Loading footer content...</p>
+    </div>
   </footer>
  <!-- Footer End -->
   
 
 
-  <script src="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+  <script src="src/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
   <script src="index.js"></script>
 </body>
 </html>

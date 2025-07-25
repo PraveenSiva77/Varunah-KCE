@@ -6,7 +6,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.0.2-purple.svg)](https://getbootstrap.com/)
 
-A modern, responsive web platform for Varunah 2k24 - the annual technical and cultural festival at Kongu College of Engineering. The platform showcases departmental associations, technical events, non-technical activities, and provides comprehensive event management capabilities with an intuitive user interface.
+A modern, responsive web platform for Varunah 2k24 - the annual technical and cultural festival at Kathir College of Engineering. The platform showcases departmental associations, technical events, non-technical activities, and provides comprehensive event management capabilities with an intuitive user interface.
 
 ![Varunah Logo](src/assets/imgs/varunah-logo-3.png)
 
@@ -225,7 +225,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🏫 About Varunah
 
-Varunah is the annual technical and cultural festival of Kongu College of Engineering, offering students a dynamic platform to showcase innovation, participate in technical challenges, and engage in diverse non-technical events for a holistic learning experience.
+Varunah is the annual technical and cultural festival of Kathir College of Engineering, offering students a dynamic platform to showcase innovation, participate in technical challenges, and engage in diverse non-technical events for a holistic learning experience.
 
 ## 📞 Contact
 
@@ -237,7 +237,7 @@ For event inquiries and registration support:
 
 ## 🙏 Acknowledgments
 
-- Kongu College of Engineering for hosting Varunah 2k24
+- Kathir College of Engineering for hosting Varunah 2k24
 - All department coordinators and faculty members
 - Student organizers and volunteers
 - Bootstrap team for the responsive framework
@@ -246,4 +246,4 @@ For event inquiries and registration support:
 
 ---
 
-Made with ❤️ for Varunah 2k24 - Kongu College of Engineering
+Made with ❤️ for Varunah 2k24 - Kathir College of Engineering
